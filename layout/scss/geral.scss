@@ -1,0 +1,66 @@
+// tags gerais 
+
+* {
+    outline: none;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+// classes especificas 
+
+.desk {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+.container {
+    max-width: 1600px;
+}
+
+@media (max-width: 1919px) {
+    .container {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+@media (max-width: 991px) {
+    .desk {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
